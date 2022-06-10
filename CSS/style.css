@@ -1,0 +1,74 @@
+body{
+        font-family: 'Rubik', sans-serif;
+}
+
+.introduccion{
+        display: flex;
+        flex-direction: row ;
+        flex-wrap: wrap; 
+        justify-content: center;
+}
+
+.introduccion .intro{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+/*         background-color:rgb(218, 94, 94); */
+    
+}
+
+.introduccion .intro img{
+        width: 400px;
+        border-radius: 50%;
+}
+
+.introduccion .intro .data{
+        width: 45%;
+        display:flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.introduccion .intro .data h2{
+        color: #c23ab3;
+}
+.introduccion .intro .data p{
+        width: 80%;
+        font-size: 18px;
+}
+
+
+.introduccion .obj-princiapal{
+        width: 45%;
+}
+
+
+.introduccion .metodologia{
+        width: 45%;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+        .introduccion{
+                display: flex;
+                flex-direction: column; ;
+                flex-wrap: wrap; 
+                justify-content: center;
+                align-items: center;
+        }
+        .introduccion .intro{
+                display: flex;
+                flex-direction:column;
+                align-items: center;
+        }
+}
+
